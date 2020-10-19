@@ -4,8 +4,8 @@
   fullWidth:true
   title:"The Island of Blue Eyes"
   subtitle:"An explorable visualization of a world-famous puzzle"
-  author:"Ruoxi Cao & Siyi He"
-  authorLink:""
+  author:"SSR (Ruoxi Cao & Siyi He)"
+  authorLink:"https://canvas.wisc.edu/groups/168166"
   date:`(new Date()).toDateString()`
   background:"#a5a58d"
   color:"#f0efeb"
@@ -14,13 +14,12 @@
 
 ## Introduction
 
-This is an Idyll post. It is generated via
-the file `index.idyll`. To compile this post using
-idyll, run the command `idyll` inside of this directory.
-
-
-Idyll posts are designed to support interaction and
-data-driven graphics.
+[p]There is an isolated island upon 100 people resides. These people are with two eye colors, [span className:"blue-text"]blue[/span] and [span className:"red-text"]red[/span].[/p]
+[p]On the island, it is forbidden to discuss about the eye colors, so though a person can see other people's eye colors, he can never know his own eye colors.[/p]
+[p]If a resident does discover his or her own eye colors are [span className:"red-text"]red[/span], he or she has to commit suicide at noon, and after this person’s suicide, other residents will know the following day.[/p]
+[p]One day, a foreigner visits the island and wins the complete trust of the locals. When he is ready to leave, he makes a mistake of mentioning the taboo on the island as he remarks that “How unusual to see a [span className:"red-text"]red-eyed[/span] person here”.[/p]
+[p]What will happen on the island after that?[/p]
+![Introduction](static/images/introduction.jpg)
 
 [var name:"state" value:0 /]
 [CustomD3Component className:"d3-component" state:state /]
@@ -60,7 +59,6 @@ to create **bold** (`**bold**` ) and *italic* (``*italic*` ) styles,
 
 in addition to [hyperlinks](https://idyll-lang.org) and images:
 
-![quill](static/images/quill.svg)
 
 ```
 ![quill](static/images/quill.svg)

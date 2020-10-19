@@ -8,3 +8,17 @@
     max-height: 200px;
   }
 }
+hr {
+  border: solid 1px green;
+}
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.red-text {
+  background-color: indianred;
+  color: white;
+}
+.blue-text {
+  background-color: cadetblue;
+  color: white;
+}
